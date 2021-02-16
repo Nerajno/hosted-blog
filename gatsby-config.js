@@ -1,14 +1,14 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `My Dev Blog`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Nerando`,
+      summary: `is a dev who lives and works in Atlanta and works on fullstack things.`,
     },
     description: `A starter blog demonstrating what Gatsby can do.`,
     siteUrl: `https://gatsby-starter-blog-demo.netlify.app/`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `nerajno`,
     },
   },
   plugins: [
@@ -75,3 +75,8 @@ module.exports = {
     // `gatsby-plugin-offline`,
   ],
 }
+
+siteMetadata: {
+  siteTitleAlt: `Nerando Johnson`,
+  siteTitle: `Nerando Johnson`,
+},
